@@ -21,4 +21,11 @@ Recommendations
 - Split long functions into smaller functions.
 - Hide internals with underscores.
 - Give the subdirectory the same name as your package.
+- Before you name your package, check that the name is not taken on https://pypi.org.
 - Use ``pycodestyle``.
+
+
+Suggestions? Corrections? Pull requests?
+----------------------------------------
+
+Yes please!
