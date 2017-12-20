@@ -4,9 +4,21 @@
    :target: ../master/LICENSE
 
 
-somepackage
+Somepackage
 ===========
 
 Show how to structure a Python project.
 
 Inspired by https://github.com/kennethreitz/samplemod.
+
+
+Recommendations
+---------------
+
+- In ``somepackage/__init__.py`` define what should be visible to the outside.
+- Test all non-trivial code.
+- Organize related functions into modules.
+- Split long functions into smaller functions.
+- Hide internals with underscores.
+- Give the subdirectory the same name as your package.
+- Use ``pycodestyle``.
