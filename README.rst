@@ -1,3 +1,5 @@
+.. image:: https://travis-ci.org/bast/somepackage.svg?branch=master
+   :target: https://travis-ci.org/bast/somepackage/builds
 
 
 example-python-project
