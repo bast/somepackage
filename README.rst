@@ -4,8 +4,8 @@
    :target: ../master/LICENSE
 
 
-example-python-project
-======================
+somepackage
+===========
 
 Show how to structure a Python project.
 
