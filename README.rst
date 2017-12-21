@@ -16,13 +16,19 @@ Recommendations
 ---------------
 
 - In ``somepackage/__init__.py`` define what should be visible to the outside.
-- Test all non-trivial code.
-- Organize related functions into modules.
+- Test all non-trivial code. I recommend https://pytest.org.
+- All code should be inside some function (except perhaps ``if __name__ == '__main__':``).
 - Split long functions into smaller functions.
 - Hide internals with underscores.
+- Organize related functions into modules.
+- If modules grow too large, split them.
+- Do file I/O on the "outside" of your code, not deep inside.
 - Give the subdirectory the same name as your package.
 - Before you name your package, check that the name is not taken on https://pypi.org.
 - Use ``pycodestyle``.
+- Use https://semver.org.
+- Add a license and a LICENSE file.
+- Use RST for your README (to make it easier for https://pypi.org).
 
 
 Suggestions? Corrections? Pull requests?
