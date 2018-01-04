@@ -16,9 +16,10 @@ Recommendations
 ---------------
 
 - In ``somepackage/__init__.py`` define what should be visible to the outside.
-- Test all non-trivial code. I recommend https://pytest.org.
+- Test all non-trivial code. I recommend to use https://pytest.org.
 - All code should be inside some function (except perhaps ``if __name__ == '__main__':``).
 - Split long functions into smaller functions.
+- If you need to scroll through a function over several screens, it is probably too long.
 - Hide internals with underscores.
 - Organize related functions into modules.
 - If modules grow too large, split them.
