@@ -1,6 +1,6 @@
 from collections import namedtuple
 
-__version__ = '1.2.3-rc-1'
+__version__ = '1.2.3'
 
 version_info = namedtuple('version_info',
                           ['major', 'minor', 'micro', 'releaselevel'])
