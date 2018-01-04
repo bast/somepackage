@@ -23,6 +23,7 @@ Recommendations
 - Hide internals with underscores.
 - Organize related functions into modules.
 - If modules grow too large, split them.
+- Import from other modules using ``from .somemodule import something``
 - Do file I/O on the "outside" of your code, not deep inside.
 - Give the subdirectory the same name as your package.
 - Before you name your package, check that the name is not taken on https://pypi.org.
