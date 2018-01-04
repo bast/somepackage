@@ -1,9 +1,9 @@
-def another_function(l1, l2):
+def another_function(argument1, argument2):
     """
     Describe here what this function does,
-    its input arguments, and what it returns.
+    its input parameters, and what it returns.
     """
-    return l1 + l2
+    return argument1 + argument2
 
 
 def test_another_function():
