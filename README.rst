@@ -27,6 +27,7 @@ Recommendations
 - Do file I/O on the "outside" of your code, not deep inside.
 - Give the subdirectory the same name as your package.
 - Before you name your package, check that the name is not taken on https://pypi.org.
+- Share your package on PyPI. For this you can follow https://github.com/bast/pypi-howto.
 - Use ``pycodestyle``.
 - Use https://semver.org.
 - Add a license and a LICENSE file.
