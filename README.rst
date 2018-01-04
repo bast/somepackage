@@ -29,6 +29,7 @@ Recommendations
 - Before you name your package, check that the name is not taken on https://pypi.org.
 - Share your package on PyPI. For this you can follow https://github.com/bast/pypi-howto.
 - Use ``pycodestyle``.
+- Use Travis CI: https://docs.travis-ci.com/user/languages/python/.
 - Use https://semver.org.
 - Add a license and a LICENSE file.
 - Use RST for your README (to make it easier for https://pypi.org).
