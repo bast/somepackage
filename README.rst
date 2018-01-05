@@ -26,13 +26,16 @@ Recommendations
 - Import from other modules using ``from .somemodule import something``
 - Do file I/O on the "outside" of your code, not deep inside.
 - Give the subdirectory the same name as your package.
-- Before you name your package, check that the name is not taken on https://pypi.org.
+- Before you name your package, check that the name is not taken on https://pypi.org
+  (you may want to upload your package to PyPI one day).
 - Share your package on PyPI. For this you can follow https://github.com/bast/pypi-howto.
 - Use ``pycodestyle``.
 - Use Travis CI: https://docs.travis-ci.com/user/languages/python/.
 - Use https://semver.org.
 - Add a license and a LICENSE file.
 - Use RST for your README (to make it easier for https://pypi.org).
+- Package dependencies for developers should be listed in ``requirements.txt``.
+- Package dependencies for users of your code (who will probably install via pip) should be listed in ``setup.py``.
 
 
 Suggestions? Corrections? Pull requests?
