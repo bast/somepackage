@@ -13,10 +13,18 @@ Inspired by https://github.com/kennethreitz/samplemod.
 
 
 Recommendations
----------------
+===============
 
-- In ``somepackage/__init__.py`` define what should be visible to the outside.
-- Test all non-trivial code. I recommend to use https://pytest.org.
+
+Documentation
+-------------
+
+- Use RST for your README (to make it easier for https://pypi.org).
+
+
+Split your code into packages, modules, and functions
+-----------------------------------------------------
+
 - All code should be inside some function (except perhaps ``if __name__ == '__main__':``).
 - Split long functions into smaller functions.
 - If you need to scroll through a function over several screens, it is probably too long.
@@ -25,17 +33,48 @@ Recommendations
 - If modules grow too large, split them.
 - Import from other modules under ``somepackage/`` using ``from .somemodule import something``.
 - Do file I/O on the "outside" of your code, not deep inside.
+
+
+Naming
+------
+
 - Give the subdirectory the same name as your package.
 - Before you name your package, check that the name is not taken on https://pypi.org
   (you may want to upload your package to PyPI one day).
-- Share your package on PyPI. For this you can follow https://github.com/bast/pypi-howto.
-- Use ``pycodestyle``.
-- Use Travis CI: https://docs.travis-ci.com/user/languages/python/.
+
+
+Interfaces
+----------
+
+- In ``somepackage/__init__.py`` define what should be visible to the outside.
 - Use https://semver.org.
-- Add a license and a LICENSE file.
-- Use RST for your README (to make it easier for https://pypi.org).
+
+
+Testing
+-------
+
+- Test all non-trivial code. I recommend to use https://pytest.org.
+- Use Travis CI: https://docs.travis-ci.com/user/languages/python/.
+
+
+Dependency management
+---------------------
+
 - Package dependencies for developers should be listed in ``requirements.txt``.
 - Package dependencies for users of your code (who will probably install via pip) should be listed in ``setup.py``.
+
+
+Code style
+----------
+
+- Use ``pycodestyle``.
+
+
+Share your package
+------------------
+
+- Choose a license and add a LICENSE file.
+- Share your package on PyPI. For this you can follow https://github.com/bast/pypi-howto.
 
 
 Suggestions? Corrections? Pull requests?
