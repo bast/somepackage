@@ -70,6 +70,7 @@ Code style
 
 - Follow PEP8: https://www.python.org/dev/peps/pep-0008/
 - Use ``pycodestyle`` to automatically check for PEP8.
+- Consider using type hints: https://docs.python.org/3/library/typing.html
 
 
 Share your package
