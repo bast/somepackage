@@ -23,12 +23,6 @@ Python 2 or 3?
   but consider Python 3 to be the default today.
 
 
-Documentation
--------------
-
-- Use RST for your README (to make it easier for https://pypi.org).
-
-
 Split your code into packages, modules, and functions
 -----------------------------------------------------
 
@@ -82,6 +76,12 @@ Share your package
 
 - Choose a license and add a LICENSE file.
 - Share your package on PyPI. For this you can follow https://github.com/bast/pypi-howto.
+
+
+Documentation
+-------------
+
+- Use RST for your README (to make it easier for https://pypi.org).
 
 
 Suggestions? Corrections? Pull requests?
