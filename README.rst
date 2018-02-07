@@ -68,7 +68,8 @@ Dependency management
 Code style
 ----------
 
-- Use ``pycodestyle``.
+- Follow PEP8: https://www.python.org/dev/peps/pep-0008/
+- Use ``pycodestyle`` to automatically check for PEP8.
 
 
 Share your package
