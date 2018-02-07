@@ -16,6 +16,13 @@ Recommendations
 ===============
 
 
+Python 2 or 3?
+--------------
+
+- Develop your code under Python 3, test it for both Python 2 and Python 3
+  but consider Python 3 to be the default today.
+
+
 Documentation
 -------------
 
