@@ -37,6 +37,14 @@ Split your code into packages, modules, and functions
 - Do file I/O on the "outside" of your code, not deep inside.
 
 
+Classes vs. functions
+---------------------
+
+- Do not overuse classes.
+- Prefer immutable data structures.
+- Prefer pure functions.
+
+
 Naming
 ------
 
