@@ -71,7 +71,13 @@ Code style
 
 - Follow PEP8: https://www.python.org/dev/peps/pep-0008/
 - Use ``pycodestyle`` to automatically check for PEP8.
+
+
+Type checking
+-------------
+
 - Consider using type hints: https://docs.python.org/3/library/typing.html
+- Consider using http://mypy-lang.org.
 - Consider verifying type annotations at runtime: https://github.com/RussBaz/enforce
 
 
