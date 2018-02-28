@@ -29,6 +29,7 @@ Split your code into packages, modules, and functions
 - All code should be inside some function (except perhaps ``if __name__ == '__main__':``).
 - Split long functions into smaller functions.
 - If you need to scroll through a function over several screens, it is probably too long.
+- Functions should do one thing and one thing only.
 - Hide internals with underscores.
 - Organize related functions into modules.
 - If modules grow too large, split them.
