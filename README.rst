@@ -62,6 +62,7 @@ Dependency management
 ---------------------
 
 - Package dependencies for developers should be listed in ``requirements.txt``.
+- Alternatively, consider using http://pipenv.readthedocs.io.
 - Package dependencies for users of your code (who will probably install via pip) should be listed in ``setup.py``.
 
 
