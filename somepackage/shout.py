@@ -1,4 +1,4 @@
-from .module2 import my_add
+from .add import my_add
 
 
 def shout_and_repeat(text):
@@ -14,10 +14,6 @@ def shout_and_repeat(text):
     return result
 
 
-def test_shout_and_repeat():
-    assert shout_and_repeat('hello goodbye-') == 'HELLO GOODBYE-HELLO GOODBYE-'
-
-
 # the underscore signals that this function is not to be used outside this
 # module
 def _shout(text):
@@ -30,7 +26,3 @@ def _shout(text):
     """
     result = text.upper()
     return result
-
-
-def test_shout():
-    assert _shout('have a nice day') == 'HAVE A NICE DAY'

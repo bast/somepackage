@@ -8,8 +8,3 @@ def my_add(argument1, argument2):
     """
     result = argument1 + argument2
     return result
-
-
-def test_my_add():
-    assert my_add([9, 0, 2], [0, 1]) == [9, 0, 2, 0, 1]
-    assert my_add('beverly ', 'hills') == 'beverly hills'
