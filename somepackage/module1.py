@@ -10,7 +10,8 @@ def shout_and_repeat(text):
     to uppercase and repeats it once.
     """
     t = _shout(text)
-    return another_function(t, t)
+    result = another_function(t, t)
+    return result
 
 
 def test_shout_and_repeat():
