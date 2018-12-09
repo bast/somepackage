@@ -13,6 +13,7 @@ install:
 script:
   - pycodestyle somepackage
   - pytest --verbose --capture=no somepackage
+  - pip install .
 
 notifications:
   email: false
