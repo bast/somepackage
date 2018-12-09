@@ -15,8 +15,9 @@ Inspired by https://github.com/kennethreitz/samplemod.
 Great resources
 ===============
 
-- http://veekaybee.github.io/2017/09/26/python-packaging/
 - https://manikos.github.io/a-tour-on-python-packaging
+- https://docs.python-guide.org/writing/structure/
+- http://veekaybee.github.io/2017/09/26/python-packaging/
 - https://github.com/audreyr/cookiecutter-pypackage
 
 
