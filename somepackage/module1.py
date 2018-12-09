@@ -1,4 +1,4 @@
-from .module2 import another_function
+from .module2 import my_add
 
 
 def shout_and_repeat(text):
@@ -10,7 +10,7 @@ def shout_and_repeat(text):
     to uppercase and repeats it once.
     """
     t = _shout(text)
-    result = another_function(t, t)
+    result = my_add(t, t)
     return result
 
 
