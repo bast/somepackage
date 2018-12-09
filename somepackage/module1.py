@@ -1,17 +1,20 @@
 from .module2 import another_function
 
 
-def some_function():
+def shout_and_repeat(text):
     """
     Describe here what this function does,
     its input parameters, and what it returns.
+
+    In this example the function converts the input string
+    to uppercase and repeats it once.
     """
-    t = _shout('hey ho -')
+    t = _shout(text)
     return another_function(t, t)
 
 
-def test_some_function():
-    assert some_function() == 'HEY HO -HEY HO -'
+def test_shout_and_repeat():
+    assert shout_and_repeat('hello goodbye-') == 'HELLO GOODBYE-HELLO GOODBYE-'
 
 
 # the underscore signals that this function is not to be used outside this
