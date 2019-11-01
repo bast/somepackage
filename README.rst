@@ -109,7 +109,12 @@ Share your package
 Documentation
 -------------
 
-- Use RST for your README (to make it easier for https://pypi.org).
+I used to recommend reStructuredText for READMEs in contrast to Markdown but
+PyPI no longer requires reStructuredText. You can use Markdown as noted on
+https://pypi.org/help/ under "How can I upload a project description in a
+different format?".
+
+Example shown here: https://packaging.python.org/tutorials/packaging-projects/#creating-setup-py
 
 
 Suggestions? Corrections? Pull requests?
