@@ -19,10 +19,13 @@ Great resources
 - https://docs.python-guide.org/writing/structure/
 - http://veekaybee.github.io/2017/09/26/python-packaging/
 - https://github.com/audreyr/cookiecutter-pypackage
+- https://medium.com/@jonas.r.kemper/understanding-best-practice-python-tooling-by-comparing-popular-project-templates-6eba49229106
 
 
 Recommendations
 ===============
+
+Please browse this blog post for a good summary of recommendatios and templates: https://medium.com/@jonas.r.kemper/understanding-best-practice-python-tooling-by-comparing-popular-project-templates-6eba49229106
 
 
 Python 2 or 3?
